@@ -224,11 +224,16 @@
   background-color: #1f1f1f;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .section-title_theme_dark {
   margin-top: 0;
   color: white;
+  display: flex;
+  justify-content: center;
+  z-index: 2;
 }
 
 .section-subtitle_theme_dark {
@@ -273,11 +278,18 @@
   justify-content: space-between;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   flex-basis: 711px;
   justify-content: space-between;
+}
+
+.footer__list {
+  list-style: none;
 }
 
 .logo_place_footer {
@@ -289,16 +301,6 @@
   color: white;
   line-height: 25px;
   font-size: 18px;
-}
-
-.footer__column_content_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
