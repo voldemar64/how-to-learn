@@ -1,5 +1,5 @@
 # How-to-learn
-### This project was made with tools, I've covered in *Yandex.Practicum*.
+### This project was made with tools, I've covered in *Yandex.Praktikum*.
 #### Hope u'll enjoy it
 **List of instruments I used:**
 * *flexbox*;
