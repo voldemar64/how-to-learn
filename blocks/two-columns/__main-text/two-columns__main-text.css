@@ -1,0 +1,12 @@
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__main-text :first-child {
+  margin-bottom: 30px;
+}
+
+.two-columns__main-text :last-child {
+  margin-top: 30px;
+}
